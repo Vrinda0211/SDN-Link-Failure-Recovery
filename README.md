@@ -29,10 +29,12 @@ The network consists of:
 - 2 hosts: h1, h2  
 
 Topology:
-
-h1 — s1 — s2 — s4 — h2  
-      \        /  
-       ---s3---  
+```
+h1 --- s1 --- s2 --- s4 --- h2
+          \        /
+           \      /
+            s3 ---
+```
 
 ### Key Feature:
 - Two paths exist between h1 and h2:

@@ -4,8 +4,8 @@
 
 This project implements an SDN-based network using Mininet and a Ryu OpenFlow controller to demonstrate:
 
-- Controller–switch interaction
-- Flow rule design using match–action logic
+- Controller-switch interaction
+- Flow rule design using match-action logic
 - Network behavior under normal and failure conditions
 
 The system detects link failures and dynamically reroutes traffic using updated flow rules, ensuring continued connectivity.
